@@ -1,0 +1,10 @@
+# Considere duas variáveis x e y. Escreva uma sequência de operações em ruby para que, ao final dessa sequencia de
+# operações, os valores de x e y sejam trocados, ou seja, o valor de x esteja em x e o valor de y esteja em x. Exemplo: 
+# Se x=10 e y=20, ao final das operações x deve ser igual a 20 e y igual a 10.
+
+x = 10 
+y = 20 
+   x = x+y = 30
+   y = x-y = 20
+   x = x-y = 10
+   y.y = y.x= [20,10]
