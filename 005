@@ -1,0 +1,12 @@
+# Considere uma variável x com um valor inteiro desconhecido de 4 dígitos (exemplo: 1234 ou 3864 ou 2012). Usando apenas a
+# variável x e expressões matemáticas crie uma variável chamada x_invertido que contenha o conteúdo de x com os valores
+# invertido.
+
+x = 1234
+x = (x%10*1000)+(x/10%10*10)+(x/1000) = 4321   
+x_invertido = x_invertido*10+tmp%10 = 4321
+x = 1234
+x_invertido = x_invertido*10+tmp%10 = 2012
+x = 2102
+x_invertido = x_invertido*10+tmp%10 = 9821
+x = 1289
